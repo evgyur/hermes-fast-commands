@@ -29,7 +29,7 @@ def validate_contract(text):
     description = re.search(r'^description: (.+)$', header, re.MULTILINE)
     if not description or len(description[1]) > 60 or not description[1].endswith('.'):
         raise ValueError('Description must be a short trigger sentence')
-    if 'name: hermes-test-commands' not in header:
+    if 'name: hermes-fast-commands' not in header:
         raise ValueError('Incorrect skill identity')
     for clause in REQUIRED:
         if clause not in text:

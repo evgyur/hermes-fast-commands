@@ -1,5 +1,5 @@
 ---
-name: hermes-test-commands
+name: hermes-fast-commands
 description: Use when personalizing a Hermes Telegram command menu.
 version: 1.0.0
 license: MIT
@@ -8,7 +8,7 @@ metadata:
     tags: [hermes, telegram, commands, personalization]
 ---
 
-# Hermes Test Commands
+# Hermes Fast Commands
 
 Make the Telegram `/` menu reflect commands the user actually sends, rather than a generic feature list. This is a small procedural skill, not a plugin or an automatic history collector.
 

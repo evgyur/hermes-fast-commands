@@ -1,4 +1,4 @@
-# Hermes Test Commands
+# Hermes Fast Commands
 
 A small, public Hermes skill for personalizing Telegram slash-command menus from actual usage.
 
@@ -22,7 +22,7 @@ It requires inspection before advice, separates visible suggestions from executa
 Clone into the active profile's skill directory; for the default profile:
 
 ```sh
-git clone https://github.com/evgyur/hermes-test-commands.git "$HOME/.hermes/skills/hermes-test-commands"
+git clone https://github.com/evgyur/hermes-fast-commands.git "$HOME/.hermes/skills/hermes-fast-commands"
 ```
 
 For another profile, use that profile's actual skill root. Do not overwrite an existing installation. Use Hermes's supported skill refresh/discovery mechanism if needed; a gateway restart is not inherently required.
